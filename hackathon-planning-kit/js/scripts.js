@@ -9,8 +9,8 @@
     // Load additional content
     $(function () {
       $("#about").load("assets/pages/about.html"); 
-      $("#about").load("assets/pages/contributors.html"); 
-      $("#about").load("assets/pages/partners.html"); 
+      $("#contributors").load("assets/pages/contributors.html"); 
+      $("#partners").load("assets/pages/partners.html"); 
     });
 
     // Smooth scrolling using jQuery easing
