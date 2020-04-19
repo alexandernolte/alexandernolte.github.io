@@ -9,6 +9,7 @@
     // Load additional content
     $(function () {
       $("#about").load("assets/pages/about.html"); 
+      $("#decisions").load("assets/pages/decisions.html"); 
       $("#contributors").load("assets/pages/contributors.html"); 
       $("#partners").load("assets/pages/partners.html"); 
     });
