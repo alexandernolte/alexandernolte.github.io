@@ -10420,8 +10420,7 @@ img.logo {
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
   transition: 0.25s;
-  height: 60px;
-  width: auto;
+  max-height: 50px;
 }
 
 img.logo:hover {
