@@ -168,12 +168,15 @@ a {
   color: #377bf9;
   text-decoration: none;
   background-color: transparent;
+  cursor: pointer;
 }
 a:hover {
   color: #105dd0;
   text-decoration: underline;
+  cursor: pointer;
 }
 
+/*
 a:not([href]) {
   color: inherit;
   text-decoration: none;
@@ -182,6 +185,7 @@ a:not([href]):hover {
   color: inherit;
   text-decoration: none;
 }
+*/
 
 pre,
 code,
@@ -460,6 +464,26 @@ mark,
 }
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
+}
+
+.list-item {
+  display: block;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+ul.list {
+  padding-left: 0;
+}
+.listtoggle {
+  display: none;
+  margin-bottom: 0;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 1.5rem;
 }
 
 .initialism {
