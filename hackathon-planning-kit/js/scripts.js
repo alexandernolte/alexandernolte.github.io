@@ -6,11 +6,6 @@
     (function ($) {
     "use strict"; // Start of use strict
 
-    // Load additional content
-    $(function () {
-      $("#decisionsModal1").load("assets/pages/goal.html"); 
-    });
-
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (
