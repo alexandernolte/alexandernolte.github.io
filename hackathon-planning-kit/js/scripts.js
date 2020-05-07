@@ -6,6 +6,9 @@
     (function ($) {
     "use strict"; // Start of use strict
 
+    // check if banner needs to be shown and show if necessary
+    checkLocale();
+
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (
@@ -53,4 +56,10 @@
     navbarCollapse();
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
+
+    // 
+    $.getJSON('//freegeoip.net/json/?callback=?', function (data) {
+                alert('Your Country is ' +data.country_name);
+                console.log(JSON.stringify(data, null, 2));
+           });
 })(jQuery); // End of use strict

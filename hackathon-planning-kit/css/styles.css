@@ -466,13 +466,24 @@ mark,
   margin-right: 0.5rem;
 }
 
-ul.list {
-  padding-left: 0;
+ol.list {
+  margin-left: 0;
+  counter-reset: item;
+  list-style-position: outside;
 }
 .list-item {
   display: block;
   line-height: 1.75;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  display: block;
+  counter-increment: item;
+}
+.list-item:before {
+  content: " ["counter(item)"] ";
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  margin-left: -2rem;
 }
 .listtoggle {
   display: none;
@@ -10108,12 +10119,12 @@ p {
   }
 }
 ::-moz-selection {
-  background: #377bf9;
+  background: #a8d1ff;
   text-shadow: none;
 }
 
 ::selection {
-  background: #377bf9;
+  background: #a8d1ff;
   text-shadow: none;
 }
 
@@ -10558,6 +10569,11 @@ section#contact {
 }
 section#contact .section-heading {
   color: #fff;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+}
+section#contact .section-subheading {
+  color: #fff;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
