@@ -108,7 +108,7 @@ header .download .button {
    color: #fff;
 }
 header .download .button:hover {
-   background: #5F97CB;
+   background: #377bf9;
    color: #fff;
 }
 header .download .button i {
@@ -129,7 +129,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #444; }
-header .social li a:hover { color: #5F97CB; }
+header .social li a:hover { color: #377bf9; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -152,7 +152,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #5F97CB; }
+header .scrolldown a:hover { color: #377bf9; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -215,7 +215,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #5F97CB; }
+ul#nav li.current a { color: #377bf9; }
 
 
 /* ------------------------------------------------------------------
@@ -237,10 +237,10 @@ ul#nav li.current a { color: #5F97CB; }
    text-transform: uppercase;
    letter-spacing: 1px;
    padding-bottom: 11px;
-   border-bottom: 1px solid #5F97CB;
+   border-bottom: 1px solid #377bf9;
 }
 
-#projects a, #projects a:visited  { color: #5F97CB; }
+#projects a, #projects a:visited  { color: #377bf9; }
 #projects a:hover, #projects a:focus { color: #313131; }
 
 #projects h1 {
@@ -293,7 +293,7 @@ ul#nav li.current a { color: #5F97CB; }
    text-transform: uppercase;
    letter-spacing: 1px;
    padding-bottom: 11px;
-   border-bottom: 1px solid #5F97CB;
+   border-bottom: 1px solid #377bf9;
 }
 
 #research aside {
@@ -306,7 +306,7 @@ ul#nav li.current a { color: #5F97CB; }
    padding-bottom: 12px;
 }
 
-#research a.link, #research a.link:visited  { color: #5F97CB; }
+#research a.link, #research a.link:visited  { color: #377bf9; }
 #research a.link:hover, #research a.link:focus { color: #fff; }
 
 #research h2 {
@@ -353,10 +353,10 @@ ul#nav li.current a { color: #5F97CB; }
    text-transform: uppercase;
    letter-spacing: 1px;
    padding-bottom: 11px;
-   border-bottom: 1px solid #5F97CB;
+   border-bottom: 1px solid #377bf9;
 }
 
-#publications a, #publications a:visited  { color: #5F97CB; }
+#publications a, #publications a:visited  { color: #377bf9; }
 #publications a:hover, #publications a:focus { color: #313131; }
 
 #publications h1 {
@@ -365,7 +365,7 @@ ul#nav li.current a { color: #5F97CB; }
    letter-spacing: 1px;
 }
 #publications h1 span {
-   border-bottom: 3px solid #5F97CB;
+   border-bottom: 3px solid #377bf9;
    padding-bottom: 3px;
 }
 #publications h3 {
@@ -560,10 +560,10 @@ ul#nav li.current a { color: #5F97CB; }
    text-transform: uppercase;
    letter-spacing: 1px;
    padding-bottom: 11px;
-   border-bottom: 1px solid #5F97CB;
+   border-bottom: 1px solid #377bf9;
 }
 
-#teaching a, #teaching a:visited  { color: #5F97CB; }
+#teaching a, #teaching a:visited  { color: #377bf9; }
 #teaching a:hover, #teaching a:focus { color: #313131; }
 
 #teaching h1 {
@@ -572,7 +572,7 @@ ul#nav li.current a { color: #5F97CB; }
    letter-spacing: 1px;
 }
 #teaching h1 span {
-   border-bottom: 3px solid #5F97CB;
+   border-bottom: 3px solid #377bf9;
    padding-bottom: 3px;
 }
 #teaching h3 {
@@ -627,10 +627,10 @@ ul#nav li.current a { color: #5F97CB; }
    text-transform: uppercase;
    letter-spacing: 1px;
    padding-bottom: 11px;
-   border-bottom: 1px solid #5F97CB;
+   border-bottom: 1px solid #377bf9;
 }
 
-#grants a, #grants a:visited  { color: #5F97CB; }
+#grants a, #grants a:visited  { color: #377bf9; }
 #grants a:hover, #grants a:focus { color: #313131; }
 
 #grants h1:before {
@@ -691,12 +691,12 @@ ul#nav li.current a { color: #5F97CB; }
    text-transform: uppercase;
    letter-spacing: 1px;
    padding-bottom: 11px;
-   border-bottom: 1px solid #5F97CB;
+   border-bottom: 1px solid #377bf9;
 }
 
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #5F97CB; }
+#contact a, #contact a:visited  { color: #377bf9; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -761,7 +761,7 @@ ul#nav li.current a { color: #5F97CB; }
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #5F97CB;
+	background-color: #377bf9;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -780,7 +780,7 @@ ul#nav li.current a { color: #5F97CB; }
 	background: #fff;
 }
 #contact span.required {
-	color: #5F97CB;
+	color: #377bf9;
 	font-size: 13px;
 }
 #message-warning, #message-success {
@@ -792,7 +792,7 @@ ul#nav li.current a { color: #5F97CB; }
    margin-left: 26%;
 }
 #message-warning { color: #D72828; }
-#message-success { color: #5F97CB; }
+#message-success { color: #377bf9; }
 
 #message-warning i,
 #message-success i {
@@ -839,7 +839,7 @@ footer .copyright li:before {
     content: "\2022";
     padding-left: 10px;
     padding-right: 12px;
-    color: #5F97CB;
+    color: #377bf9;
 }
 footer .copyright  li:first-child:before {
     display: none;
@@ -856,7 +856,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #5F97CB;
+    color: #377bf9;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
@@ -887,5 +887,5 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #5F97CB; }
+#go-top a:hover { background-color: #377bf9; }
 
