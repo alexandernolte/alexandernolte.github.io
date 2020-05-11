@@ -103,11 +103,11 @@
   color: #ccc;
 }
 .timeline-series dt a.open {
-  border-bottom: 1px solid #5F97CB;
+  border-bottom: 1px solid #377bf9;
   padding-bottom: 1px;
 }
 .timeline-series dt a:hover {
-  border-bottom: 1px solid #5F97CB;
+  border-bottom: 1px solid #377bf9;
   padding-bottom: 1px;
 }
 .timeline-series ul {
