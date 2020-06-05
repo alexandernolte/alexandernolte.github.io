@@ -10542,7 +10542,8 @@ header.masthead .masthead-heading {
 }
 
 /* Logo grayscale */
-img.logo {
+.logo {
+  color: #222529;
   filter: gray;
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
@@ -10550,7 +10551,7 @@ img.logo {
   max-height: 50px;
 }
 
-img.logo:hover {
+.logo:hover {
   -webkit-filter: grayscale(0);
   filter: none;
 }
