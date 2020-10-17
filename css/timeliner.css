@@ -88,14 +88,13 @@
   padding-left: 1.1em;
   text-indent: -1.1em;
 }
-.timeline-series dt a {
+.timeline-series dt p span {
   font-family: 'librebaskerville-italic', serif;
   font-weight: normal;
   font-size: 15px;
   letter-spacing: 0.03em;
   line-height: 30px;
   color: #ccc;
-  cursor: pointer;
   margin-left: 18px;
   white-space: pre-wrap;
 }
@@ -103,10 +102,6 @@
   color: #ccc;
 }
 .timeline-series dt a.open {
-  border-bottom: 1px solid #377bf9;
-  padding-bottom: 1px;
-}
-.timeline-series dt a:hover {
   border-bottom: 1px solid #377bf9;
   padding-bottom: 1px;
 }
