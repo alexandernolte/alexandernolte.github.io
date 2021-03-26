@@ -33,13 +33,29 @@
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<link rel="stylesheet" href="css/timeliner.css" type="text/css" media="screen">
 	
-   <!-- Script
+   <!-- Scripts
    ================================================== -->
 	<script src="js/modernizr.js"></script>
 
-   <!-- Favicons
-	<link rel="shortcut icon" href="favicon.png" >
-	================================================== -->
+	<script type="text/javascript"> <!--
+	    function UnCryptMailto(s) {
+	        var n = 0;
+	        var r = "";
+	        for (var i = 0; i < s.length; i++) {
+	            n = s.charCodeAt( i );
+	            if(n >= 8364) {
+	                n = 128;
+	            }
+	            r += String.fromCharCode( n - 1 );
+	        }
+	        return r;
+	    }
+
+	    function linkTo_UnCryptMailto(s) {
+	        location.href=UnCryptMailto( s );
+	    }
+	    // -->
+	</script>
 
 </head>
 
@@ -60,7 +76,6 @@
 				<li><a class="smoothscroll" href="#publications">Publications</a></li>
 				<li><a class="smoothscroll" href="#teaching">Teaching</a></li>
 				<li><a class="smoothscroll" href="#grants">Fellowships &amp; Grants</a></li>
-				<li><a class="smoothscroll" href="#contact">Contact</a></li>
 			</ul> <!-- end #nav -->
 
 		</nav> <!-- end #nav-wrap -->
@@ -86,6 +101,7 @@
 							<li><a href="https://www.researchgate.net/profile/Alexander_Nolte" target="_blank"><i class="ai ai-researchgate"></i></a></li>
 							<li><a href="https://www.linkedin.com/in/alexandernolte" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 							<li><a href="skype:alex.nolte?userinfo"><i class="fa fa-skype"></i></a></li>
+							<li><a href="javascript:linkTo_UnCryptMailto('nbjmup;bmfyboefs/opmufAvep/fev');"><i class="fa fa-envelope"></i></a></li>
 							<li id="small_download_button"><a href="download/cv_nolte.pdf" target="_blank"><i class="fa fa-download"></i></a></li>
 						</ul>
 					</div>
@@ -156,7 +172,7 @@
 
 		<div class ="row">
 			<div class="twelve columns">
-				<p>The following timeline illustrates my academic career. For more information please refer to my <a class="link" href="download/cv_nolte.pdf" target="_blank">resume</a> or <a class="link smoothscroll" href="#contact">contact</a> me directly.</p>
+				<p>The following timeline illustrates my academic career. For more information please refer to my <a class="link" href="download/cv_nolte.pdf" target="_blank">resume</a> or <a class="link" href="javascript:linkTo_UnCryptMailto('nbjmup;bmfyboefs/opmufAvep/fev');">contact</a> me directly.</p>
 			</div>
 		</div>
 		
@@ -458,101 +474,6 @@
 		</div> <!-- End Workshops -->
 
 	</section> <!-- Fellowships & Grants Section End-->
-	
-   <!-- Contact Section
-   ================================================== -->
-   <section id="contact">
-
-		<div class="row section-header">
-			<div class="twelve columns">
-				<p class="section-header-text">Contact</p>
-			</div>
-		</div>
-
-         <div class="row section-head">
-
-            <div class="two columns header-col">
-
-               <h1></h1>
-
-            </div>
-
-            <div class="ten columns">
-
-                  <p class="lead">I am always happy to meet old and new friends so please feel free to contact me through the following form or by using the social-media links below.</p>
-
-            </div>
-
-         </div>
-
-         <div class="row">
-
-            <div class="eight columns">
-
-               <!-- form -->
-               <form action="https://formspree.io/f/xknkwolb" method="post" id="contactForm" name="contactForm">
-					<fieldset>
-
-                  <div>
-						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
-                  </div>
-
-                  <div>
-						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="email" value="" size="35" id="contactEmail" name="_replyto">
-                  </div>
-
-                  <div>
-						   <label for="contactSubject">Subject</label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
-                  </div>
-
-                  <div>
-                     <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="message"></textarea>
-                  </div>
-
-                  <div>
-                     <button type="submit" class="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif">
-                     </span>
-                  </div>
-
-					</fieldset>
-				   </form> <!-- Form End -->
-
-               <!-- contact-warning -->
-               <div id="message-warning">Your message could not be sent. Please try again later.</div>
-               <!-- contact-success -->
-				   <div id="message-success">
-                  <i class="fa fa-check"></i>Thank you for contacting me. I will come back to you as soon as possible.<br>
-				   </div>
-
-            </div>
-
-
-            <aside class="four columns footer-widgets">
-
-				<div class="widget widget_contact">
-
-						<h4>Address and Phone</h4>
-						<p class="address">
-						   Alexander Nolte<br>
-						   Institute of Computer Science<br>
-						   University of Tartu<br>
-						   Room 3013, Narva maantee 18, 51009 Tartu, Estonia<br>
-						   <span>alexander.nolte@ut.ee</span>
-						</p>
-
-				   </div>
-
-            </aside>
-
-		</div>
-
-	</section> <!-- Contact Section End-->
 
 
 	<!-- footer
@@ -568,6 +489,7 @@
 					<li><a href="https://www.researchgate.net/profile/Alexander_Nolte" target="_blank"><i class="ai ai-researchgate"></i></a></li>
 					<li><a href="https://www.linkedin.com/in/alexandernolte" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 					<li><a href="skype:alex.nolte?userinfo"><i class="fa fa-skype"></i></a></li>
+					<li><a href="javascript:linkTo_UnCryptMailto('nbjmup;bmfyboefs/opmufAvep/fev');"><i class="fa fa-envelope"></i></a></li>
 				</ul>
 
 				<ul class="copyright">

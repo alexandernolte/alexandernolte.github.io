@@ -618,6 +618,7 @@ ul#nav li.current a { color: #377bf9; }
 #grants {
    background: #fff;
    overflow: hidden;
+   padding-bottom: 48px;
 }
 #grants .section-header {
    padding-top: 12px;
